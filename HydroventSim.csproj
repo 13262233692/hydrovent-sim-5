@@ -1,0 +1,10 @@
+<Project Sdk="Godot.NET.Sdk/4.0.0">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+    <RootNamespace>HydroventSim</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Scripts/**/*.cs" />
+  </ItemGroup>
+</Project>

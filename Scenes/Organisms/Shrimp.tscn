@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://eshrimp890"]
+
+[ext_resource type="Script" path="res://Scripts/Organisms/BlindShrimp.cs" id="1_shrimp"]
+
+[node name="Shrimp" type="Node2D"]
+script = ExtResource("1_shrimp")

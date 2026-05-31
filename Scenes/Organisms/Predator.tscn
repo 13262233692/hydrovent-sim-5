@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://fpredator123"]
+
+[ext_resource type="Script" path="res://Scripts/Organisms/Predator.cs" id="1_predator"]
+
+[node name="Predator" type="Node2D"]
+script = ExtResource("1_predator")

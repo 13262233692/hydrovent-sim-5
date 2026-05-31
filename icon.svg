@@ -1,0 +1,28 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#051525;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0a2a4a;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="ventGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ff6600;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ffaa00;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#ffff00;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <rect width="128" height="128" fill="url(#bgGrad)"/>
+  
+  <circle cx="64" cy="70" r="30" fill="url(#ventGrad)"/>
+  
+  <ellipse cx="64" cy="80" rx="20" ry="8" fill="#2d1810"/>
+  
+  <path d="M50 75 Q55 50 60 75" stroke="#ff4444" stroke-width="4" fill="none"/>
+  <path d="M58 75 Q64 45 70 75" stroke="#ff6600" stroke-width="4" fill="none"/>
+  <path d="M68 75 Q73 50 78 75" stroke="#ffaa00" stroke-width="4" fill="none"/>
+  
+  <circle cx="30" cy="90" r="8" fill="#00cc66"/>
+  <circle cx="100" cy="85" r="6" fill="#00cc66"/>
+  
+  <text x="64" y="115" text-anchor="middle" fill="#88ccff" font-size="14" font-family="Arial, sans-serif">Hydro</text>
+</svg>
